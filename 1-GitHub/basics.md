@@ -1,25 +1,25 @@
-# Îñíîâû GitHub #
+ï»¿# ÐžÑÐ½Ð¾Ð²Ñ‹ GitHub #
 
-#Íàñòðîéêà GitHub
+#ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ° GitHub
 
-1. Çàïîëíèòü èìÿ è email: 
-	git config --global user.name "èìÿ"
-	git config --global user.email "àæðåñ ýëåêòðîíêè"
-	git config --list // âûâåäåò âñå íàñòðîéêè
+1. Ð—Ð°Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÑŒ Ð¸Ð¼Ñ Ð¸ email: 
+	git config --global user.name "Ð¸Ð¼Ñ"
+	git config --global user.email "Ð°Ð¶Ñ€ÐµÑ ÑÐ»ÐµÐºÑ‚Ñ€Ð¾Ð½ÐºÐ¸"
+	git config --list // Ð²Ñ‹Ð²ÐµÐ´ÐµÑ‚ Ð²ÑÐµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
 
-2. Ïîëó÷èòü ñïðàâêó 
+2. ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ ÑÐ¿Ñ€Ð°Ð²ÐºÑƒ 
 	git help
 
-3.	git init //ïîäêëþ÷àåì ïàïêó ê â git
+3.	git init //Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡Ð°ÐµÐ¼ Ð¿Ð°Ð¿ÐºÑƒ Ðº Ð² git
 
-4.	git status //ïîëó÷àåì ñòàòóñ, ÷òî çàêîìèòåòî, à ÷òî íåò
+4.	git status //Ð¿Ð¾Ð»ÑƒÑ‡Ð°ÐµÐ¼ ÑÑ‚Ð°Ñ‚ÑƒÑ, Ñ‡Ñ‚Ð¾ Ð·Ð°ÐºÐ¾Ð¼Ð¸Ñ‚ÐµÑ‚Ð¾, Ð° Ñ‡Ñ‚Ð¾ Ð½ÐµÑ‚
 
-5.	git add . //äîáîâëÿåì âñå ÷òî åñòü â ïàïêå â git
+5.	git add . //Ð´Ð¾Ð±Ð¾Ð²Ð»ÑÐµÐ¼ Ð²ÑÐµ Ñ‡Ñ‚Ð¾ ÐµÑÑ‚ÑŒ Ð² Ð¿Ð°Ð¿ÐºÐµ Ð² git
 
-6.	git commit -m "êîìåíòàðèé"
+6.	git commit -m "ÐºÐ¾Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹"
 
-7.Çàëèâàåì íà óäàëåííûé ðåïîçèòîðèé
-	…or create a new repository on the command line
+7.Ð—Ð°Ð»Ð¸Ð²Ð°ÐµÐ¼ Ð½Ð° ÑƒÐ´Ð°Ð»ÐµÐ½Ð½Ñ‹Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ð¸Ð¹
+	â€¦or create a new repository on the command line
 	
 	echo "# basics" >> README.md
 	git init
@@ -28,7 +28,7 @@
 	git remote add origin https://github.com/StKovalev/basics.git
 	git push -u origin master
 	
-	…or push an existing repository from the command line
+	â€¦or push an existing repository from the command line
 	
 	git remote add origin https://github.com/StKovalev/basics.git
 	git push -u origin master	
