@@ -17,4 +17,19 @@
 5.	git add . //добовл€ем все что есть в папке в git
 
 6.	git commit -m "коментарий"
+
+7.«аливаем на удаленный репозиторий
+	Еor create a new repository on the command line
+	
+	echo "# basics" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/StKovalev/basics.git
+	git push -u origin master
+	
+	Еor push an existing repository from the command line
+	
+	git remote add origin https://github.com/StKovalev/basics.git
+	git push -u origin master	
  		
